@@ -1,0 +1,150 @@
+body {
+  margin: 0vh;
+  background-color: black;
+}
+#topnav {
+  color: rgb(236, 102, 124);
+  height: fit-content;
+  width: 100%;
+  background-color: black;
+  padding-top: 7px;
+}
+#topimg {
+  height: 35px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+#topFS {
+  height: 35px;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 28px;
+  font-family: cursive;
+  padding-left: 10px;
+  display: inline;
+  position: relative;
+  top: -7px;
+}
+#abc1 {
+  height: 53%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #000000;
+  position: relative;
+}
+#fram1 {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#2f2f2f, #2f2f2f, #2f2f2f, black) !important;
+}
+#setvidebtn {
+  margin-left: auto;
+  margin-right: 20px;
+}
+#abc {
+  position: absolute;
+  bottom: 0vh;
+  height: 40%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 2vh 2vh 0vh 0vh;
+  overflow: hidden;
+}
+#def {
+  width: 99.7%;
+  height: 40px;
+  position: absolute;
+  bottom: 2vh;
+  border-top: 0.3px outset rgb(229,229,229);
+  padding-top: 1vh;
+  display: flex;
+  wrap: no-wrap;
+  background-color: white;
+}
+input[type="text"] {
+  width: 70rem;
+  height: 100%;
+  border-radius: 4.5vh;
+  font-size: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 0.5px solid rgb(211, 211, 211);
+  margin-left: 2vw;
+  float: left;
+  display: inline-block;
+  outline: none;
+  background-color: rgb(240, 240, 240);
+  color: #2f2f2f;
+}
+input[type="text"]::placeholder {
+  color: rgb(168,168,168);
+}
+button {
+  height: 100%;
+  border: none;
+  width: fit-content;
+  float: right;
+  display: inline;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#setvideoimg {
+  height: 100%;
+}
+#abc123 {
+  height: 28vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#abc123 div {
+  font-size: 18px; 
+  background-color: rgb(55, 153, 61); 
+  border-radius: 12px; 
+  padding-top: 0.5rem; 
+  padding-bottom: 0.5rem; 
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+  color:white; 
+  margin-left:auto; 
+  margin-right:auto;
+  font-family: 'Segoe UI'; 
+  margin-top: 1vh; 
+  margin-bottom: 1vh;  
+  height: fit-content; 
+  width: fit-content; 
+  max-width:80%; 
+  word-wrap: break-word;
+}
+.con1 {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI";
+  font-size: larger;
+  opacity: 0;
+  background-color: rgba(0,0,0,0.55);
+  transition: opacity 0.5s;
+}
+#con2 {
+  opacity: 1.0;
+  background-color: black;
+}
+#con3 {
+  position: absolute;
+  right: 5px;
+  top: 1.4em;
+  height: 35px;
+  cursor: pointer;
+}
